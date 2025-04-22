@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\extensions\\servicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\extensions\\servicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\extensions\\databaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\extensions\\databaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC2EFAA9-719E-4F37-93B1-CEB600D6687E}|ChatService.Repository\\ChatService.Repository.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.repository\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC2EFAA9-719E-4F37-93B1-CEB600D6687E}|ChatService.Repository\\ChatService.Repository.csproj|solutionrelative:chatservice.repository\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|d:\\studydocuments\\reviewknowledgeforinterview\\chatservice\\chatservice.api\\chatservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00B5E43D-224D-4A35-8A37-B24A35CC50EC}|ChatService.API\\ChatService.API.csproj|solutionrelative:chatservice.api\\chatservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 409,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseExtension.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Extensions\\DatabaseExtension.cs",
+              "RelativeDocumentMoniker": "ChatService.API\\Extensions\\DatabaseExtension.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Extensions\\DatabaseExtension.cs",
+              "RelativeToolTip": "ChatService.API\\Extensions\\DatabaseExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:11:56.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CorsExtension.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Extensions\\CorsExtension.cs",
+              "RelativeDocumentMoniker": "ChatService.API\\Extensions\\CorsExtension.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Extensions\\CorsExtension.cs",
+              "RelativeToolTip": "ChatService.API\\Extensions\\CorsExtension.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:09:20.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCollection.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Extensions\\ServiceCollection.cs",
+              "RelativeDocumentMoniker": "ChatService.API\\Extensions\\ServiceCollection.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Extensions\\ServiceCollection.cs",
+              "RelativeToolTip": "ChatService.API\\Extensions\\ServiceCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:06:33.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ChatService.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ChatService.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:54:38.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserConnection.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\Models\\UserConnection.cs",
+              "RelativeDocumentMoniker": "ChatService.Repository\\Models\\UserConnection.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\Models\\UserConnection.cs",
+              "RelativeToolTip": "ChatService.Repository\\Models\\UserConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:52:40.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SharedDB.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\DataService\\SharedDB.cs",
+              "RelativeDocumentMoniker": "ChatService.API\\DataService\\SharedDB.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\DataService\\SharedDB.cs",
+              "RelativeToolTip": "ChatService.API\\DataService\\SharedDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T02:27:21.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Program.cs",
+              "RelativeDocumentMoniker": "ChatService.API\\Program.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Program.cs",
+              "RelativeToolTip": "ChatService.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:18:33.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatService.API\\Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ChatService.API\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wCQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:15:10.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatService.API.csproj",
+              "DocumentMoniker": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\ChatService.API.csproj",
+              "RelativeDocumentMoniker": "ChatService.API\\ChatService.API.csproj",
+              "ToolTip": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\ChatService.API.csproj",
+              "RelativeToolTip": "ChatService.API\\ChatService.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T04:13:21.804Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
