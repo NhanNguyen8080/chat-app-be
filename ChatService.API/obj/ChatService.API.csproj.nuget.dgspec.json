@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\ChatService.API.csproj": {}
+    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj": {}
   },
   "projects": {
-    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\ChatService.API.csproj": {
+    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\ChatService.API.csproj",
+        "projectUniqueName": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
         "projectName": "ChatService.API",
-        "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\ChatService.API.csproj",
+        "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
         "packagesPath": "C:\\Users\\talax\\.nuget\\packages\\",
-        "outputPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.API\\obj\\",
+        "outputPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\talax\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Service\\ChatService.Service.csproj": {
-                "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Service\\ChatService.Service.csproj"
+              "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj": {
+                "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\ChatService.Repository.csproj": {
+    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Repository\\ChatService.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\ChatService.Repository.csproj",
+        "projectUniqueName": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Repository\\ChatService.Repository.csproj",
         "projectName": "ChatService.Repository",
-        "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\ChatService.Repository.csproj",
+        "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Repository\\ChatService.Repository.csproj",
         "packagesPath": "C:\\Users\\talax\\.nuget\\packages\\",
-        "outputPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\obj\\",
+        "outputPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\talax\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,6 +121,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -141,14 +159,14 @@
         }
       }
     },
-    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Service\\ChatService.Service.csproj": {
+    "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Service\\ChatService.Service.csproj",
+        "projectUniqueName": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj",
         "projectName": "ChatService.Service",
-        "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Service\\ChatService.Service.csproj",
+        "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj",
         "packagesPath": "C:\\Users\\talax\\.nuget\\packages\\",
-        "outputPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Service\\obj\\",
+        "outputPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\talax\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,8 +183,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\ChatService.Repository.csproj": {
-                "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\ChatService\\ChatService.Repository\\ChatService.Repository.csproj"
+              "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Repository\\ChatService.Repository.csproj": {
+                "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Repository\\ChatService.Repository.csproj"
               }
             }
           }
