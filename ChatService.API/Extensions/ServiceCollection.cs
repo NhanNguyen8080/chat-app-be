@@ -1,4 +1,5 @@
 ﻿using ChatService.API.DataService;
+using ChatService.Service.Services;
 
 namespace ChatService.API.Extensions
 {
@@ -8,7 +9,7 @@ namespace ChatService.API.Extensions
         {
             services.AddSignalR();
             services.AddSingleton<SharedDB>();
-
+            services.AddScoped<IJwtTokenFactory, JwtTokenFactory>();
             return services;
         }
     }

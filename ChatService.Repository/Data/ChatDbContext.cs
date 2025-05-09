@@ -14,11 +14,13 @@ namespace ChatService.Repository.Data
         {
         }
 
-        public DbSet<UserConnection> UserConnections { get; set; }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<AccountRole> AccountRoles { get; set; }
+        //public DbSet<UserConnection> UserConnections { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserConnection>().ToTable("UserConnections");
         }
     }
 }
