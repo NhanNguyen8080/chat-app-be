@@ -1,4 +1,6 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.OpenApi.Any;
+using Microsoft.OpenApi.Models;
 
 namespace ChatService.API.Extensions
 {
@@ -11,7 +13,7 @@ namespace ChatService.API.Extensions
             services.AddSwaggerGen(options =>
             {
                 //This defines the security scheme that Swagger will use for authentication.
-                options.AddSecurityDefinition("Bearer" /* The name of the security scheme */,
+                options.AddSecurityDefinition("Bearer JWT" /* The name of the security scheme */,
                     new OpenApiSecurityScheme
                     {
                         Name = "Authorization", //The name of the header where the token will be passed
@@ -37,6 +39,12 @@ namespace ChatService.API.Extensions
                         new List<string>()
                     }
 
+                });
+                options.MapType<DateOnly>(() => new OpenApiSchema
+                {
+                    Type = "string",
+                    Format = "date",
+                    Example = new OpenApiString("2000-01-01")
                 });
             });
             return services;

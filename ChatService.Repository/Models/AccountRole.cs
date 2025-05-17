@@ -14,7 +14,7 @@ namespace ChatService.Repository.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public int AccountId { get; set; }
+        public Guid AccountId { get; set; }
         public required Account Account { get; set; }
 
         public int RoleId { get; set; }

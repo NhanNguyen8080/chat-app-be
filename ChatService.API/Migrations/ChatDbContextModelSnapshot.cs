@@ -24,21 +24,19 @@ namespace ChatService.API.Migrations
 
             modelBuilder.Entity("ChatService.Repository.Models.Account", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("Address");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Avatar")
                         .IsRequired()
                         .HasColumnType("varchar(150)")
                         .HasColumnName("Avatar");
+
+                    b.Property<string>("Bio")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(500)")
+                        .HasColumnName("Bio");
 
                     b.Property<string>("CoverPhoto")
                         .IsRequired()
@@ -51,7 +49,7 @@ namespace ChatService.API.Migrations
 
                     b.Property<string>("FullName")
                         .IsRequired()
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(30)")
                         .HasColumnName("FullName");
 
                     b.Property<string>("Gender")
@@ -66,17 +64,8 @@ namespace ChatService.API.Migrations
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
-                        .HasColumnType("varchar(12)")
+                        .HasColumnType("varchar(10)")
                         .HasColumnName("PhoneNumber");
-
-                    b.Property<int>("PhoneNumberOtp")
-                        .HasColumnType("int")
-                        .HasColumnName("PhoneNumberOtp");
-
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("varchar(32)")
-                        .HasColumnName("UserName");
 
                     b.HasKey("Id");
 
@@ -91,8 +80,8 @@ namespace ChatService.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AccountId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("AccountId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("RoleId")
                         .HasColumnType("int");

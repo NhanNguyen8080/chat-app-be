@@ -1,4 +1,5 @@
 ﻿using ChatService.Repository.Data;
+using ChatService.Repository.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ChatService.API.Extensions
@@ -13,6 +14,20 @@ namespace ChatService.API.Extensions
             }, ServiceLifetime.Scoped);
             return services;
         }
+
+        public static WebApplication SeedData(this WebApplication app)
+        {
+            using (var scope = app.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<ChatDbContext>();
+
+                var userRole = new Role { RoleName = "User" };
+                context.Roles.Add(userRole);
+                context.SaveChanges();
+            }
+            return app;
+        }
+
         private static string GetConnectionString()
         {
             IConfigurationRoot config = new ConfigurationBuilder()

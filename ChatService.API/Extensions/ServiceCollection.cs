@@ -1,4 +1,5 @@
 ﻿using ChatService.API.DataService;
+using ChatService.Repository.UnitOfWork;
 using ChatService.Service.Services;
 
 namespace ChatService.API.Extensions
@@ -9,7 +10,11 @@ namespace ChatService.API.Extensions
         {
             services.AddSignalR();
             services.AddSingleton<SharedDB>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IJwtTokenFactory, JwtTokenFactory>();
+            services.AddScoped<IRedisService, RedisService>();
+            services.AddScoped<ICloudinaryService, CloudinaryService>();
             return services;
         }
     }

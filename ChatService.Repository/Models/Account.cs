@@ -13,36 +13,30 @@ namespace ChatService.Repository.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-
-        [Column("UserName", TypeName = "varchar(32)")]
-        public required string UserName { get; set; }
+        public Guid Id { get; set; }
 
         [Column("Avatar", TypeName = "varchar(150)")]
-        public required string Avatar { get; set; }
+        public string Avatar { get; set; }
 
         [Column("CoverPhoto", TypeName = "varchar(150)")]
-        public required string CoverPhoto { get; set; }
+        public string CoverPhoto { get; set; }
+
+        [Column("Bio", TypeName = "nvarchar(500)")]
+        public string Bio { get; set; }
 
         [Column("Password", TypeName = "varchar(256)")]
-        public required string PasswordHash { get; set; }
+        public string PasswordHash { get; set; }
 
-        [Column("FullName", TypeName = "text")]
-        public required string FullName { get; set; }
+        [Column("FullName", TypeName = "nvarchar(30)")]
+        public string FullName { get; set; }
 
-        [Column("PhoneNumber", TypeName = "varchar(12)")]
+        [Column("PhoneNumber", TypeName = "varchar(10)")]
         public string PhoneNumber { get; set; }
-
-        [Column("Address", TypeName = "text")]
-        public string Address { get; set; }
 
         [Column("DateOfBirth")]
         public DateOnly DateOfBirth { get; set; }
 
         [Column("Gender", TypeName = "varchar(6)")]
         public string Gender { get; set; }
-
-        [Column("PhoneNumberOtp")]
-        public int PhoneNumberOtp { get; set; }
     }
 }
