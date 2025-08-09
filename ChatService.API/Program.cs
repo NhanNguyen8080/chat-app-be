@@ -2,6 +2,7 @@ using ChatService.API.Converters;
 using ChatService.API.DataService;
 using ChatService.API.Extensions;
 using ChatService.API.Hubs;
+using Microsoft.AspNetCore.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +32,8 @@ app.UseErrorHandlingMiddleware();
 app.UseJwtMiddleware();
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 

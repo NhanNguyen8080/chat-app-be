@@ -9355,19 +9355,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\talax\\.nuget\\packages\\": {}
+    "C:\\Users\\talax\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "projectUniqueName": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "projectName": "ChatService.API",
-      "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "packagesPath": "C:\\Users\\talax\\.nuget\\packages\\",
-      "outputPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\obj\\",
+      "outputPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\talax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9381,8 +9386,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj": {
-              "projectPath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj"
+            "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj": {
+              "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj"
             }
           }
         }
@@ -9396,7 +9401,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -9446,7 +9452,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

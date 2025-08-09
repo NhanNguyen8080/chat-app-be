@@ -30,7 +30,7 @@ namespace ChatService.API.Controllers
         }
 
         //Doing send OTP through Twillio
-        [Route("/send-otp/{phoneNumber}")]
+        [Route("send-otp/{phoneNumber}")]
         [HttpPost]
         public async Task<IActionResult> SendOtp(string phoneNumber)
         {
@@ -48,7 +48,7 @@ namespace ChatService.API.Controllers
             }
         }
 
-        [Route("/verify-otp/{phoneNumber}")]
+        [Route("verify-otp")]
         [HttpPost]
         public async Task<IActionResult> VerifyOtp([FromQuery] string phoneNumber, [FromQuery] int otp)
         {
@@ -66,7 +66,7 @@ namespace ChatService.API.Controllers
             }
         }
 
-        [Route("/check-account-exists/{phoneNumber}")]
+        [Route("check-account-exists/{phoneNumber}")]
         [HttpPost]
         public async Task<IActionResult> CheckAccountExists(string phoneNumber)
         {
@@ -85,7 +85,7 @@ namespace ChatService.API.Controllers
             }
         }
 
-        [Route("/reset-password/{phoneNumber}")]
+        [Route("reset-password/{phoneNumber}")]
         [HttpPost]
         public async Task<IActionResult> ResetPassword(string phoneNumber, ResetPasswordDTO resetPasswordDTO)
         {
@@ -104,7 +104,7 @@ namespace ChatService.API.Controllers
             }
         }
 
-        [Route("/sign-up")]
+        [Route("sign-up")]
         [HttpPost]
         public async Task<IActionResult> SignUp(AccountCM accountCM)
         {
@@ -122,7 +122,7 @@ namespace ChatService.API.Controllers
             }
         }
 
-        [Route("/sign-in")]
+        [Route("sign-in")]
         [HttpPost]
         public async Task<IActionResult> SignIn(LoginDTO loginDTO)
         {

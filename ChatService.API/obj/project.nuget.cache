@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r6w/t//Kt2CbCRBDEVSqGRjnfGFXl+Y+8WjIt2hKgPJo+Wks7LD4fV/RpjTawe3oSKGjRW08IuxXpuAhfD9OSQ==",
+  "dgSpecHash": "HHRo9bIrgk4=",
   "success": true,
-  "projectFilePath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+  "projectFilePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\talax\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\talax\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -178,8 +178,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.SignalR.Core 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "libraryId": "Microsoft.AspNet.SignalR.Core",
       "targetGraphs": [
         "net8.0"
@@ -188,8 +190,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.SignalR.SystemWeb 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "libraryId": "Microsoft.AspNet.SignalR.SystemWeb",
       "targetGraphs": [
         "net8.0"
@@ -198,8 +202,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Microsoft.Owin 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "libraryId": "Microsoft.Owin",
       "targetGraphs": [
         "net8.0"
@@ -208,8 +214,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Microsoft.Owin.Host.SystemWeb 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "libraryId": "Microsoft.Owin.Host.SystemWeb",
       "targetGraphs": [
         "net8.0"
@@ -218,8 +226,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Microsoft.Owin.Security 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "libraryId": "Microsoft.Owin.Security",
       "targetGraphs": [
         "net8.0"
@@ -228,8 +238,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.API\\ChatService.API.csproj",
       "libraryId": "Owin",
       "targetGraphs": [
         "net8.0"
