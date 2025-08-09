@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0XtLSR9Vv/2D8y2T67E5H6wO/60K4BPT/imL+mtrz6R20jJc4az10ieK4iDQD44HJP+Ps4K4hYG0GFGfFiVoig==",
+  "dgSpecHash": "fsgL5NaMlNk=",
   "success": true,
-  "projectFilePath": "D:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj",
+  "projectFilePath": "E:\\StudyDocuments\\ReviewKnowledgeForInterview\\chat-app-be\\ChatService.Service\\ChatService.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\talax\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\talax\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

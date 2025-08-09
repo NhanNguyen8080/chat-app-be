@@ -604,7 +604,7 @@ namespace ChatService.Service.Services
             {
                 var listPhoneNumberOTPsInCache = _redisService.GetData<List<PhoneNumberOtpDTO>>(_phoneNumberOTPsKey)
                                                        ?? new List<PhoneNumberOtpDTO>();
-                var existedPhoneNumberOTP = listPhoneNumberOTPsInCache.Find(_ => _.PhoneNumber == phoneNumber);
+                var existedPhoneNumberOTP = listPhoneNumberOTPsInCache.Find(_ => _.PhoneNumber == ConvertToInternationalFormat(phoneNumber));
                 if (existedPhoneNumberOTP is null)
                 {
                     return new ResponseDTO<bool>

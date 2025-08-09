@@ -41,7 +41,7 @@ namespace ChatService.Repository.Repository
                                         string includeProperties = "", 
                                         int? pageIndex = null, int? pageSize = null)
         {
-            IQueryable<T> query = _dbSet;
+            IQueryable<T> query = _dbSet.AsNoTracking();
             if (filter != null)
             {
                 query = query.Where(filter);
